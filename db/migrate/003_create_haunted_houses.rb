@@ -1,5 +1,5 @@
 # Create your haunted_houses migration here
-class CreateCostumeStore < ActiveRecord::Migration[4.2]
+class CreateHauntedHouses < ActiveRecord::Migration[4.2]
   def up
   end
 
@@ -7,7 +7,7 @@ class CreateCostumeStore < ActiveRecord::Migration[4.2]
   end
 
   def change
-    create_table :costume_stores do |a|
+    create_table :haunted_houses do |a|
       a.string :name
       a.string :location
       a.integer :costume_inventory
