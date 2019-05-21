@@ -15,8 +15,12 @@ class CreateCostumes < ActiveRecord::Migration[4.2]
   end
 
   def change
-    create_table :students do |a|
+    create_table :costumes do |a|
       a.string :name
+      a.integer :price
+      a.integer :size
+      a.text :image_url
+      a.datetime :created_at
     end
   end
 end
