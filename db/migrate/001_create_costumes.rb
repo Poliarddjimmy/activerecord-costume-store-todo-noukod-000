@@ -8,5 +8,15 @@
 # In this change method, create columns with the correct names and 
 # value types according to the spec
 class CreateCostumes < ActiveRecord::Migration[4.2]
-  
+  def up
+  end
+
+  def down
+  end
+
+  def change
+    create_table :students do |a|
+      a.string :name
+    end
+  end
 end
