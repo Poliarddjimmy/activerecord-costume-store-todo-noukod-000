@@ -11,7 +11,7 @@ class CreateCostumeStore < ActiveRecord::Migration[4.2]
       a.string :name
       a.string :location
       a.integer :num_of_costume
-      a.text :image_url
+      a.integer :num_of_
       a.datetime :created_at
       a.datetime :updated_at
     end
